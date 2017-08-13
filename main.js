@@ -1,3 +1,9 @@
+Vector2.prototype.clamp = function(x,y) {
+    this.x = clamp(this.x,0,x)
+    this.y = clamp(this.y,0,y)
+    return this
+};
+
 class CurveGUI{
     constructor(querystring){
         this.selected = null;
@@ -36,7 +42,6 @@ class CurveGUI{
 
         this.canvas.addEventListener('mousedown', (e) => {
             var mousepos = getMousePos(this.canvas, e);
-            console.log(mousepos)
             var closest = null;
             for(var point of this.controlPoints){
                 if(closest == null){

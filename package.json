@@ -1,0 +1,30 @@
+{
+  "name": "curvegui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "bezierx": "^1.1.4",
+    "utilsx": "^1.4.2",
+    "vectorx": "^1.0.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gvr37leo/curveGUI.git"
+  },
+  "keywords": [
+    "bezier",
+    "curve",
+    "widget"
+  ],
+  "author": "gvr37.p.l.boon@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gvr37leo/curveGUI/issues"
+  },
+  "homepage": "https://github.com/gvr37leo/curveGUI#readme"
+}
